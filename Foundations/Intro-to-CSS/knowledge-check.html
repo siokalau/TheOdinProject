@@ -23,6 +23,48 @@
             <li>What are the main differences between the three ways of adding CSS to HTML?</li>
             <p>External CSS takes the style from a separate document, Internal CSS has a pair of &lt;style&gt; inside the &lt;head&gt; section of the HTML and the Inline CSS add it directly to the element</p> 
         </ul>
+
+        <h2>2. The Cascade</h2>
+        <ul>
+            <li>Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</li>
+            <p>The rule that uses one class selector has higher specificitym same as how an ID selector has higher specificity than a class selector.</p>
+        </ul>
+
+        <h2>4. The Box Model</h2>
+        <ul>
+            <li>From inside to outside, what is the order of box-model properties?</li>
+            <p>Padding, border and margin.</p>
+            <li>What does the box-sizing CSS property do?</li>
+            <p>The box-sizing property makes it so that the width that we assing to the box, be the actual witdh, not the width minus the padding and border.</p>
+            <li>Would you use margin or padding to create more space between 2 elements?</li>
+            <p>Margin.</p>
+            <li>Would you use margin or padding to create more space between the contents of an element and its border?</li>
+            <p>Padding.</p>
+            <li>Would you use margin or padding if you wanted two elements to overlap each other?</li>
+            <p>I would use margin, but it has to be negative.</p> 
+            <li>How do you set the alternative box model for all of your elements?</li>
+            <p>.box {<br>box-sizing: border-box;}</p>
+            <li>How do you center an element horizontally?</li>
+            <p>margin: 0 auto;</p>
+        </ul>
+
+        <h2>5. Block and Inline</h2>
+        <ul>
+            <li>What is the syntax for class and ID selectors?</li>
+            <p>&lt;... class="name"&gt; .name{} <br> &lt;... id="name"&gt; #name{}</p>
+            <li>How would you apply a single rule to two different selectors?</li>
+            <p>.selector1, <br>.selector2{}</p>
+            <li>Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?</li>
+            <p>.title.primary{}</p>
+            <li>What does the descendant combinator do?</li>
+            <p>A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor that matches the previous selector.</p>
+            <li>What are the names of the three ways to add CSS to HTML?</li>
+            <p>External CSS, Internal CSS, Inline CSS.</p>
+            <li>What are the main differences between the three ways of adding CSS to HTML?</li>
+            <p>External CSS takes the style from a separate document, Internal CSS has a pair of &lt;style&gt; inside the &lt;head&gt; section of the HTML and the Inline CSS add it directly to the element</p> 
+        </ul>
+
+
     </body>
 
 </html>
